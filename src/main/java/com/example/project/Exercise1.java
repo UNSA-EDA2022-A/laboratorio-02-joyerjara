@@ -15,7 +15,12 @@ public class Exercise1 {
 	}
 
 	public boolean esCuadradoPerfecto(int numero) {
-
-		return false;
+		if(Math.sqrt(numero)%1==0&&numero!=0) {
+			return true;
+			
+		}
+		else {
+			return false;
+		}
 	}
 }
